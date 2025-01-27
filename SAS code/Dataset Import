@@ -1,0 +1,19 @@
+/* Generated Code (IMPORT) */
+/* Source File: Telecom Customer Churn Dataset.csv */
+
+
+%web_drop_table(WORK.CHURN);
+
+
+FILENAME REFFILE 'MIS581 - CAPSTONE Course/Telecom Customer Churn Dataset.csv';
+
+PROC IMPORT DATAFILE=REFFILE
+	DBMS=CSV
+	OUT=WORK.CHURN;
+	GETNAMES=YES;
+RUN;
+
+PROC CONTENTS DATA=WORK.CHURN; RUN;
+
+
+%web_open_table(WORK.CHURN);
