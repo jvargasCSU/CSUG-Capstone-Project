@@ -8,3 +8,5 @@ The primary aim and most concrete product of this research is to generate a pred
   •	Provide insights and recommendations to help telecom companies reduce customer churn.
 
 The primary software/tool used for this study is SAS Studio where descriptive and statistical analysis is conducted on relevant variables from a dataset that contains historical account and demographic data of customers who have churned or have stayed with their telecommunications provider. A logistic regression model is applied to the data to determine which variables seem to have a more significant impact on the target variable, churn. The results and findings will allow me to contribute to already existing research by providing the variables that could indicate a customer is at risk for churn, supporting or disproving current research, and ultimately determining what a good customer retention strategy could look like for a company in this industry.
+
+Primary Dataset: https://www.kaggle.com/blastchar/telco-customer-churn
