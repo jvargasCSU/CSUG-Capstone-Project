@@ -1,0 +1,5 @@
+data Churn_Numeric;
+    set WORK.CHURN;
+    if Churn = "Yes" then Churn_num = 1;
+    else if Churn = "No" then Churn_num = 0;
+run;
